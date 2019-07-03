@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 
-import NavBar from './Small.Components/Drawer.js'
+import Dashboard from './Small.Components/Drawer.js'
 
 const drawerWidth = 240;
 
@@ -29,7 +29,7 @@ export default function MiniDrawer() {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <NavBar / >
+      <Dashboard / >
     </div>
   );
 }
